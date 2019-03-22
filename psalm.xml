@@ -6,6 +6,7 @@
 >
     <projectFiles>
         <directory name="hooks" />
+        <directory name="tests" />
         <directory name="www" />
     </projectFiles>
 
