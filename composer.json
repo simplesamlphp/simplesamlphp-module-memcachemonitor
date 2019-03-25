@@ -34,6 +34,9 @@
         "simplesamlphp/simplesamlphp": "^1.17",
         "phpunit/phpunit": "~5.7"
     },
+    "extra": {
+        "ssp-mixedcase-module-name": "memcacheMonitor"
+    },
     "support": {
         "issues": "https://github.com/tvdijen/simplesamlphp-module-memcachemonitor/issues",
         "source": "https://github.com/tvdijen/simplesamlphp-module-memcachemonitor"
