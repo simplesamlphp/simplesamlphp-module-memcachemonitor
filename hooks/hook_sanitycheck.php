@@ -1,7 +1,5 @@
 <?php
 
-use Webmozart\Assert\Assert;
-
 /**
  * Sanity check for memcache servers.
  *
@@ -12,9 +10,9 @@ use Webmozart\Assert\Assert;
  */
 function memcacheMonitor_hook_sanitycheck(&$hookinfo)
 {
-    Assert::isArray($hookinfo);
-    Assert::keyExists($hookinfo, 'errors');
-    Assert::keyExists($hookinfo, 'info');
+    assert(is_array($hookinfo));
+    assert(array_key_exists('errors', $hookinfo));
+    assert(array_key_exists('info', $hookinfo));
 
     try {
         $servers = \SimpleSAML\Memcache::getRawStats();

@@ -1,7 +1,5 @@
 <?php
 
-use Webmozart\Assert\Assert;
-
 /**
  * Hook to add the simple consenet admin module to the frontpage.
  *
@@ -10,8 +8,8 @@ use Webmozart\Assert\Assert;
  */
 function memcacheMonitor_hook_frontpage(&$links)
 {
-    Assert::isArray($links);
-    Assert::keyExists($links, 'links');
+    assert(is_array($links));
+    assert(array_key_exists('links', $links));
 
     $links['config'][] = [
         'href' => SimpleSAML\Module::getModuleURL('memcacheMonitor/memcachestat.php'),
