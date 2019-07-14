@@ -30,7 +30,7 @@ class TemplateTest extends TestCase
         $files = array_diff(scandir($basedir), ['.', '..']);
         foreach ($files as $file) {
             if (preg_match('/.twig$/', $file)) {
-                $t = new Template($config, 'memcachemonitor:'.basename($file));
+                $t = new Template($config, 'memcacheMonitor:'.basename($file));
                 ob_start();
                 try {
                     $t->show();
