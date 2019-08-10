@@ -32,7 +32,7 @@
     },
     "require-dev": {
         "simplesamlphp/simplesamlphp": "^1.17",
-        "simplesamlphp/simplesamlphp-test-framework": "~0.0.6"
+        "simplesamlphp/simplesamlphp-test-framework": "~0.0.8"
     },
     "extra": {
         "ssp-mixedcase-module-name": "memcacheMonitor"
