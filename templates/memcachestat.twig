@@ -2,7 +2,7 @@
 {% extends "base.twig" %}
 
 {% block preload %}
-    <link href="/{{ baseurlpath }}module.php/memcacheMonitor/assets/css/memcacheMonitor.css" rel="stylesheet">
+    <link href="{{ asset('css/memcacheMonitor.css', 'memcacheMonitor') }}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
