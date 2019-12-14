@@ -6,7 +6,7 @@
  * @param \SimpleSAML\XHTML\Template &$template The template that we should alter in this hook.
  * @return void
  */
-function memcacheMonitor_hook_configpage(\SimpleSAML\XHTML\Template &$template)
+function memcacheMonitor_hook_configpage(\SimpleSAML\XHTML\Template &$template): void
 {
     $template->data['links']['memcacheMonitor'] = [
         'href' => SimpleSAML\Module::getModuleURL('memcacheMonitor/memcachestat.php'),

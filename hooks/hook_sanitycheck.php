@@ -10,16 +10,15 @@ use Webmozart\Assert\Assert;
  * @param array &$hookinfo  hookinfo
  * @return void
  */
-function memcacheMonitor_hook_sanitycheck(&$hookinfo)
+function memcacheMonitor_hook_sanitycheck(array &$hookinfo): void
 {
-    Assert::isArray($hookinfo);
     Assert::keyExists($hookinfo, 'errors');
     Assert::keyExists($hookinfo, 'info');
 
     try {
         $servers = \SimpleSAML\Memcache::getRawStats();
     } catch (\Exception $e) {
-        $hookinfo['errors'][] = '[memcacheMonitor] Error parsing memcache configuration: '.$e->getMessage();
+        $hookinfo['errors'][] = '[memcacheMonitor] Error parsing memcache configuration: ' . $e->getMessage();
         return;
     }
 
@@ -27,7 +26,7 @@ function memcacheMonitor_hook_sanitycheck(&$hookinfo)
     foreach ($servers as $group) {
         foreach ($group as $server => $status) {
             if ($status === false) {
-                $hookinfo['errors'][] = '[memcacheMonitor] No response from server: '.$server;
+                $hookinfo['errors'][] = '[memcacheMonitor] No response from server: ' . $server;
                 $allOK = false;
             }
         }

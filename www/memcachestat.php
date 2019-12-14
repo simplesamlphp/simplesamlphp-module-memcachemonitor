@@ -4,7 +4,7 @@
  * @param int $input
  * @return string
  */
-function tdate($input)
+function tdate(int $input): string
 {
     return date(DATE_RFC822, $input);
 }
@@ -14,18 +14,18 @@ function tdate($input)
  * @param int $input
  * @return string
  */
-function hours($input)
+function hours(int $input): string
 {
     if ($input < 60) {
-        return number_format($input, 2).' sec';
+        return number_format($input, 2) . ' sec';
     }
     if ($input < 60 * 60) {
-        return number_format(($input / 60), 2).' min';
+        return number_format(($input / 60), 2) . ' min';
     }
     if ($input < 24 * 60 * 60) {
-        return number_format(($input / (60 * 60)), 2).' hours';
+        return number_format(($input / (60 * 60)), 2) . ' hours';
     }
-    return number_format($input / (24 * 60 * 60), 2).' days';
+    return number_format($input / (24 * 60 * 60), 2) . ' days';
 }
 
 
@@ -33,7 +33,7 @@ function hours($input)
  * @param int $input
  * @return string
  */
-function humanreadable($input)
+function humanreadable(int $input): string
 {
     $output = "";
     $input = abs($input);
@@ -108,7 +108,7 @@ foreach ($stats as $key => &$entry) {
     }
 }
 
-$t = new \SimpleSAML\XHTML\Template($config, 'memcacheMonitor:memcachestat.tpl.php');
+$t = new \SimpleSAML\XHTML\Template($config, 'memcacheMonitor:memcachestat.twig');
 $rowTitles = [
     'accepting_conns' => \SimpleSAML\Locale\Translate::noop('{memcacheMonitor:memcachestat:accepting_conns}'),
     'auth_cmds' => \SimpleSAML\Locale\Translate::noop('{memcacheMonitor:memcachestat:auth_cmds}'),
@@ -177,9 +177,9 @@ if (array_key_exists('bytes', $statsraw) && array_key_exists('limit_maxbytes', $
     $maxpix = 400;
     foreach ($statsraw['bytes'] as $key => $row_data) {
         $pix = floor($statsraw['bytes'][$key] * $maxpix / $statsraw['limit_maxbytes'][$key]);
-        $usage[$key] = $pix.'px';
+        $usage[$key] = $pix . 'px';
     }
-    $t->data['maxpix'] = $maxpix.'px';
+    $t->data['maxpix'] = $maxpix . 'px';
     $t->data['usage'] = $usage;
 }
 
@@ -188,4 +188,4 @@ $t->data['rowTitles'] = $rowTitles;
 $t->data['colTitles'] = $colTitles;
 $t->data['statsraw'] = $statsraw;
 $t->data['table'] = $stats;
-$t->show();
+$t->send();
