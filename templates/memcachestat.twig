@@ -15,6 +15,7 @@
             {% endfor %}
         </tr>
         {% for rowTitle, rowData in table %}
+        {% if rowTitles[rowTitle] is defined %}
         <tr>
             <th class="rowtitle" style="text-align: right">{{ rowTitles[rowTitle]|trans }}</th>
             {% for key, colTitle in colTitles %}
@@ -25,6 +26,7 @@
             {% endif %}
             {% endfor %}
         </tr>
+        {% endif %}
         {% endfor %}
     </table>
 
