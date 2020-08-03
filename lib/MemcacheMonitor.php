@@ -55,8 +55,8 @@ class MemcacheMonitor
         $stats = $statsraw;
 
         foreach ($stats as $key => &$entry) {
-            if (array_key_exists($key, $formats)) {
-                $func = $formats[$key];
+            if (array_key_exists($key, $this->formats)) {
+                $func = $this->formats[$key];
                 foreach ($entry as $k => $val) {
                     $entry[$k] = call_user_func($func, $val);
                 }
