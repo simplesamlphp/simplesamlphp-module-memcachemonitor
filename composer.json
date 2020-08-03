@@ -20,6 +20,11 @@
             "*": "dist"
         }
     },
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\Module\\memcacheMonitor\\": "lib/"
+        }
+    },
     "autoload-dev": {
         "psr-4": {
             "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
@@ -32,7 +37,7 @@
         "webmozart/assert": "~1.4"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp-test-framework": "~0.1.0"
+        "simplesamlphp/simplesamlphp-test-framework": "~0.2.5"
     },
     "extra": {
         "ssp-mixedcase-module-name": "memcacheMonitor"
