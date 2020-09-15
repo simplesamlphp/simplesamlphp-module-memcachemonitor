@@ -4,7 +4,6 @@
  * Hook to add the memcacheMonitor module to the config page.
  *
  * @param \SimpleSAML\XHTML\Template &$template The template that we should alter in this hook.
- * @return void
  */
 function memcacheMonitor_hook_configpage(\SimpleSAML\XHTML\Template &$template): void
 {

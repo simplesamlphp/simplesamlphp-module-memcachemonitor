@@ -33,7 +33,6 @@ class MemcacheMonitorTest extends TestCase
 
     /**
      * Set up for each test.
-     * @return void
      */
     protected function setUp(): void
     {
@@ -73,7 +72,6 @@ class MemcacheMonitorTest extends TestCase
 
 
     /**
-     * @return void
      */
     public function testAuthenticated(): void
     {
@@ -97,7 +95,6 @@ class MemcacheMonitorTest extends TestCase
 
 
     /**
-     * @return void
      */
     public function testUnauthenticated(): void
     {

@@ -8,7 +8,6 @@ use Webmozart\Assert\Assert;
  * This function verifies that all memcache servers work.
  *
  * @param array &$hookinfo  hookinfo
- * @return void
  */
 function memcacheMonitor_hook_sanitycheck(array &$hookinfo): void
 {
