@@ -21,13 +21,13 @@ class MemcacheMonitor
      * The configuration that holds the memcache configuration
      * @var \SimpleSAML\Configuration
      */
-    private $config;
+    private Configuration $config;
 
     /**
      * An associative array with keys matching the stats, and values pointing to the formatting function for that key
      * @var array
      */
-    private $formats = [
+    private array $formats = [
         'bytes' => [self::class, 'humanreadable'],
         'bytes_read' => [self::class, 'humanreadable'],
         'bytes_written' => [self::class, 'humanreadable'],

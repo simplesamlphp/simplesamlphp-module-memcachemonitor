@@ -24,16 +24,13 @@ use Symfony\Component\HttpFoundation\Request;
 class MemcacheMonitorController
 {
     /** @var \SimpleSAML\Configuration */
-    protected $config;
+    protected Configuration $config;
 
     /** @var \SimpleSAML\Session */
-    protected $session;
+    protected Session $session;
 
-    /**
-     * @var \SimpleSAML\Utils\Auth|string
-     * @psalm-var \SimpleSAML\Utils\Auth|class-string
-     */
-    protected $authUtils = Utils\Auth::class;
+    /** @var \SimpleSAML\Utils\Auth */
+    protected $authUtils;
 
 
     /**
@@ -52,6 +49,7 @@ class MemcacheMonitorController
     ) {
         $this->config = $config;
         $this->session = $session;
+        $this->authUtils = new Utils\Auth();
     }
 
 
