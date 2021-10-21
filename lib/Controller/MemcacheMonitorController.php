@@ -73,7 +73,7 @@ class MemcacheMonitorController
      */
     public function main(Request $request): Template
     {
-        $this->authUtils::requireAdmin();
+        $this->authUtils->requireAdmin();
 
         $memcacheMonitor = new MemcacheMonitor($this->config);
         return $memcacheMonitor->renderStats();
