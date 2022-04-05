@@ -20,7 +20,7 @@ jobs:
       - name: Setup PHP, with composer and extensions
         uses: shivammathur/setup-php@v2 #https://github.com/shivammathur/setup-php
         with:
-          coverage: pcov
+          coverage: debug
           extensions: intl, mbstring, xml
           ini-values: error_reporting=E_ALL
           php-version: ${{ matrix.php-versions }}
@@ -205,3 +205,9 @@ jobs:
       - name: Psalter
         continue-on-error: true
         run: php vendor/bin/psalter --issues=UnnecessaryVarAnnotation --dry-run
+
+      - name: Lint markdown files
+        uses: nosborn/github-action-markdown-cli@v3.0.1
+        with:
+          files: .
+          ignore_path: .markdownlintignore
