@@ -1,3 +1,4 @@
 memcacheMonitor-main:
-    path: /
+    path:       /
     defaults:   { _controller: 'SimpleSAML\Module\memcacheMonitor\Controller\MemcacheMonitorController::main' }
+    methods:    [GET]
