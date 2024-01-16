@@ -4,11 +4,8 @@ declare(strict_types=1);
 
 namespace SimpleSAML\Module\memcacheMonitor;
 
-use Exception;
-use SimpleSAML\Assert\Assert;
 use SimpleSAML\Configuration;
 use SimpleSAML\Locale\Translate;
-use SimpleSAML\Logger;
 use SimpleSAML\Memcache;
 use SimpleSAML\XHTML\Template;
 

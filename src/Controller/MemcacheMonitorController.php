@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace SimpleSAML\Module\memcacheMonitor\Controller;
 
-use SimpleSAML\Auth;
 use SimpleSAML\Configuration;
-use SimpleSAML\Logger;
-use SimpleSAML\Module;
 use SimpleSAML\Module\memcacheMonitor\MemcacheMonitor;
 use SimpleSAML\Session;
 use SimpleSAML\Utils;
