@@ -39,7 +39,7 @@ class MemcacheMonitorTest extends TestCase
         $this->config = Configuration::loadFromArray(
             [
                 'module.enable' => ['memcacheMonitor' => true],
-                'memcache_store.servers' => []
+                'memcache_store.servers' => [],
             ],
             '[ARRAY]',
             'simplesaml'
