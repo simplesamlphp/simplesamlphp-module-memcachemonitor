@@ -42,7 +42,7 @@ class MemcacheMonitorTest extends TestCase
                 'memcache_store.servers' => [],
             ],
             '[ARRAY]',
-            'simplesaml'
+            'simplesaml',
         );
 
         $this->session = Session::getSessionFromRequest();
@@ -54,10 +54,10 @@ class MemcacheMonitorTest extends TestCase
                     'admin' => ['core:AdminPassword'],
                 ],
                 '[ARRAY]',
-                'simplesaml'
+                'simplesaml',
             ),
             'authsources.php',
-            'simplesaml'
+            'simplesaml',
         );
 
         $this->authUtils = new class () extends Utils\Auth {
@@ -81,7 +81,7 @@ class MemcacheMonitorTest extends TestCase
 
         $request = Request::create(
             '/',
-            'GET'
+            'GET',
         );
 
         $c = new MemcacheMonitorController($this->config, $this->session);
@@ -102,7 +102,7 @@ class MemcacheMonitorTest extends TestCase
 
         $request = Request::create(
             '/',
-            'GET'
+            'GET',
         );
 
         $c = new MemcacheMonitorController($this->config, $this->session);
