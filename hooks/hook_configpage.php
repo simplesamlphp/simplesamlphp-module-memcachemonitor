@@ -14,7 +14,7 @@ use SimpleSAML\XHTML\Template;
 function memcacheMonitor_hook_configpage(Template &$template): void
 {
     $template->data['links'][] = [
-        'href' => Module::getModuleURL('memcacheMonitor/memcachestat.php'),
+        'href' => Module::getModuleURL('memcacheMonitor/'),
         'text' => Translate::noop('Memcache statistics'),
     ];
 
