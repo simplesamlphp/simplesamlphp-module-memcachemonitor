@@ -17,7 +17,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * @package SimpleSAML\Test
  */
-class MemcacheMonitorTest extends TestCase
+final class MemcacheMonitorTest extends TestCase
 {
     /** @var \SimpleSAML\Configuration */
     protected Configuration $config;
