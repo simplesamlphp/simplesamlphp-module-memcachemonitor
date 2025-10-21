@@ -52,9 +52,6 @@ msgstr "Skupno število zahtevkov GET "
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Prenešenih bajtov v smeri strežnika"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Točen čas"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Skupno število neuspešnih zahtevkov GET "
 

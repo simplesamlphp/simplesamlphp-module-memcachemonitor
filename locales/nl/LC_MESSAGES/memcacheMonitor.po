@@ -15,6 +15,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
+msgid "Libevent version"
+msgstr "Libevent versie"
+
+msgid "Number of file descriptors used internally"
+msgstr "Aantal file descriptors in gebruik (intern)"
+
 msgid "{memcacheMonitor:memcachestat:total_connections}"
 msgstr "Totaal connecties"
 
@@ -50,9 +56,6 @@ msgstr "Aantal GET-commando's"
 
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Bytes richting de server"
-
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Huidige tijd"
 
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Aantal GET-commando's (mislukt)"

@@ -51,9 +51,6 @@ msgstr "GET komandoak guztira"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Byte-ak zerbitzarian"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Uneko ordua"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "GET komandoak guztira (huts egiteak)"
 

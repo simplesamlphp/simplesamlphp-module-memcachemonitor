@@ -52,9 +52,6 @@ msgstr "Viso GET užklausų"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Nuskaityta baitų į serverį"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Laikas"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Viso GET užklausų (nesėkmingų)"
 

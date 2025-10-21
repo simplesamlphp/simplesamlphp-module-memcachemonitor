@@ -51,9 +51,6 @@ msgstr "Commandes GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Octets sur le serveur"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Date courante"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Commandes GET invalides"
 

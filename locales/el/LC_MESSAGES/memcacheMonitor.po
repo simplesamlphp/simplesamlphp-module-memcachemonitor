@@ -51,9 +51,6 @@ msgstr "Σύνολο εντολών GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Bytes που αναγνώστηκαν"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Τρέχουσα ώρα"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Σύνολο εντολών GET (αποτυχία)"
 

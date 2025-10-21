@@ -51,9 +51,6 @@ msgstr "Total antal GET kommandoer"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Bytes in i serveren"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Aktuel tid"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Total antal GET kommandoer (fejl)"
 

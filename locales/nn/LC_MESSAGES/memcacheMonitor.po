@@ -51,9 +51,6 @@ msgstr "Talet på GET-kommandoar (totalt)"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Bytes inn til tenaren"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Tid no"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Talet på GET-kommandoar (feil)"
 

@@ -52,9 +52,6 @@ msgstr "Ukupno GET naredbi"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Bajtova poslanih poslužitelju"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Trenutno vrijeme"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Ukupno GET naredbi (neuspješnih)"
 

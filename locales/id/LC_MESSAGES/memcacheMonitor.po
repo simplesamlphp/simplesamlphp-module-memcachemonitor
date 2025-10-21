@@ -51,9 +51,6 @@ msgstr "Total perintah GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Jumlah Byte yang masuk ke server"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Waktu saat ini"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Total perintah GET (gagal)"
 

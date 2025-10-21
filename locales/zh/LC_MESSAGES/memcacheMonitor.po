@@ -51,9 +51,6 @@ msgstr "全部的GET指令"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "进入服务器的字节"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "当前时间"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "全部的GET指令（失败的）"
 

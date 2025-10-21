@@ -51,9 +51,6 @@ msgstr "סה\"כ פקודות GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "בטים שניכנסו לשרת"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "זמן נוכחי"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "סה\"כ פקודות GET שנכשלו"
 

@@ -52,9 +52,6 @@ msgstr "عدد أوامر GET الكلي"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "عدد البايتس الداخلة للمشغل"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "الوقت حالياً"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "العدد الكلي لأوامر GET الفاشلة"
 

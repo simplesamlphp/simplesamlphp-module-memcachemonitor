@@ -52,9 +52,6 @@ msgstr "Număr total de comenzi GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Octeți înspre server"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Ora curentă"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Număr total de comenzi GET (eșuate)"
 

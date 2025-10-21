@@ -52,9 +52,6 @@ msgstr "Всего команд GET"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Байт на сервер"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Текущее время"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Всего команд GET (с ошибкой)"
 

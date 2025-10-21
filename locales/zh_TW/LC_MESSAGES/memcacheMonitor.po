@@ -51,9 +51,6 @@ msgstr "GET 指令總數"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "傳送至主機總位元組"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "目前時間"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "GET 指令總數(成功)"
 

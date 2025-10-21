@@ -52,9 +52,6 @@ msgstr "Celkový počet GET příkazů"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Příchozích bajtů na server"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Aktuální čas"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Celkový počet GET příkazů (neúspěšných)"
 

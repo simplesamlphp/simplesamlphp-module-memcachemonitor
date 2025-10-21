@@ -51,9 +51,6 @@ msgstr "GET-käske kokku"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Baite serverisse"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Aeg praegu"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Ebaõnnestunud GET-käske kokku"
 

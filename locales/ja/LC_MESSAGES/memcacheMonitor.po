@@ -51,9 +51,6 @@ msgstr "GETコマンド実行回数"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "受信データ量"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "現在時刻"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "GETコマンド失敗回数"
 

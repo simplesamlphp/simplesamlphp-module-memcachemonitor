@@ -52,9 +52,6 @@ msgstr "GET komandas kopā"
 msgid "{memcacheMonitor:memcachestat:bytes_read}"
 msgstr "Servera lasītie baiti"
 
-msgid "{memcacheMonitor:memcachestat:time}"
-msgstr "Pašreizējais laiks"
-
 msgid "{memcacheMonitor:memcachestat:get_misses}"
 msgstr "Neveiksmīgās GET komandas kopā"
 
