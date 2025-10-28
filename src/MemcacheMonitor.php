@@ -22,7 +22,7 @@ class MemcacheMonitor
 
     /**
      * An associative array with keys matching the stats, and values pointing to the formatting function for that key
-     * @var array
+     * @var array<mixed>
      */
     private array $formats = [
         'bytes' => [self::class, 'humanreadable'],
@@ -146,6 +146,8 @@ class MemcacheMonitor
     /**
      * @param int $input
      * @return string
+     *
+     * @phpstan-ignore method.unused
      */
     private function tdate(int $input): string
     {
@@ -156,6 +158,8 @@ class MemcacheMonitor
     /**
      * @param int $input
      * @return string
+     *
+     * @phpstan-ignore method.unused
      */
     private function hours(int $input): string
     {
@@ -178,6 +182,8 @@ class MemcacheMonitor
     /**
      * @param int $input
      * @return string
+     *
+     * @phpstan-ignore method.unused
      */
     private function humanreadable(int $input): string
     {
