@@ -39,6 +39,7 @@
     },
     "require": {
         "php": "^8.2",
+        "ext-memcached": "*",
 
         "simplesamlphp/assert": "~1.9.1",
         "simplesamlphp/composer-module-installer": "~1.5.0",
