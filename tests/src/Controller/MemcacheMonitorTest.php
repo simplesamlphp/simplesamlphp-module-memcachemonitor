@@ -70,7 +70,6 @@ final class MemcacheMonitorTest extends TestCase
 
 
     /**
-     * @phpstan-ignore-next-line
      */
     public function testAuthenticated(): void
     {
@@ -94,7 +93,6 @@ final class MemcacheMonitorTest extends TestCase
 
 
     /**
-     * @phpstan-ignore-next-line
      */
     public function testUnauthenticated(): void
     {
